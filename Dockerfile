@@ -37,5 +37,5 @@ RUN cd /grpc-java/compiler/src/java_plugin/cpp && \
     install -c protoc-gen-grpc-java /usr/local/bin/
 RUN mkdir /javalite &&  wget -qO /tmp/javalite.zip https://github.com/google/protobuf/releases/download/v3.0.0/protoc-gen-javalite-3.0.0-linux-x86_64.zip && \
     unzip -d /javalite /tmp/javalite.zip
-RUN ln -s /javalite/bin/protoc-gen-javalite /usr/local/bin/protoc-gen-javalite
+#RUN ln -s /javalite/bin/protoc-gen-javalite /usr/local/bin/protoc-gen-javalite
 #ENTRYPOINT ["/usr/bin/protoc", "-I/protobuf"]
