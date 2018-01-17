@@ -7,7 +7,7 @@ ENV GRPC_VERSION=1.8.3 \
     PROTOBUF_C_VERSION=1.3.0 \
     PROTOC_GEN_DOC_VERSION=1.0.0-rc \
     JAVALITE_VERSION=3.0.1 \
-    OUTDIR=/out \
+    OUTDIR=/ws/genfiles \
     WORKSPACE=/ws
 
 RUN mkdir -p $OUTDIR
